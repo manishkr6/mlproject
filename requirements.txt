@@ -6,7 +6,6 @@ scikit-learn
 catboost
 xgboost
 Flask
-ipykernel
 dill
 
 #-e .

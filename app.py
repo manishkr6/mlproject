@@ -26,8 +26,8 @@ def predict_datapoint():
             parental_level_of_education=request.form.get('parental_level_of_education', ''),
             lunch=request.form.get('lunch', ''),
             test_preparation_course=request.form.get('test_preparation_course', ''),
-            reading_score=int(request.form.get('writing_score', 0)),
-            writing_score=int(request.form.get('reading_score', 0))
+            reading_score=int(request.form.get('reading_score', 0)),
+            writing_score=int(request.form.get('writing_score', 0))
         )
         pred_df=data.get_data_as_data_frame()
         print(pred_df)

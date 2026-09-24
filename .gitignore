@@ -3,7 +3,8 @@ __pycache__/
 *.py[codz]
 *$py.class
 
-artifacts/
+artifacts/*
+!artifacts/*.pkl
 catboost_info/
 
 # C extensions
